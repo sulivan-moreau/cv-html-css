@@ -1,0 +1,58 @@
+/* Base */
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  box-shadow: 30px 0px 40px rgba(196,196,196);
+}
+/* Compétences */
+#competences {
+  margin-top: 20px;
+}
+
+.competence {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+.competence img {
+  width: 50px;
+  height: 50px;
+}
+
+.competence p {
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Bouton de téléchargement */
+#CV-telechargement {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Pied de page */
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #007BFF;
+}
